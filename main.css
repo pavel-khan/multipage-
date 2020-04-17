@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Paaji 2", cursive;
+}
+
+/* header start here*/
+
+.header-container {
+  background-color: #040303ad;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.logo a img {
+  max-width: 100%;
+}
+.header-container nav {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.header-container nav ul {
+  list-style: none;
+  display: inline-flex;
+}
+.header-container nav ul li {
+  padding: 0 20px;
+}
+.header-container nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+
+.header-container nav ul li a:hover {
+  background-color: #2b2278;
+}
+/*header end here */
+
+/* banner gose here  */
+.banner-container {
+  margin: 0;
+}
+
+.banner-container img {
+  max-width: 100%;
+}
+/* banner end here */
+
+/* services start here */
+
+.service-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.post {
+  width: 33.33%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.post article {
+  width: 100%;
+}
+.post article img {
+  width: 100%;
+}
+.post article p {
+  margin: 0;
+}
+article h2 {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+article h2 p {
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+/* contact start here */
+
+.from-container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contact-from {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.contact-from h2 {
+  padding-top: 31px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 31px;
+}
+.contact-from label {
+  display: block;
+  text-transform: capitalize;
+  font-size: 21px;
+}
+.contact-from input,
+.contact-from textarea {
+  width: 100%;
+  padding: 14px 8px;
+  font-size: 20px;
+  border: #83858af5 solid 1px;
+  border-radius: 5px;
+}
+.contact-from textarea {
+}
+input[type="submit"] {
+  background-color: #040303ad;
+  margin-top: 25px;
+  color: white;
+  width: 24%;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: #040303ad;
+  font-size: 22px;
+}
+
+.contact-from input:focus,
+.contact-from textarea {
+  outline: #97999ef5 solid 1px;
+}
